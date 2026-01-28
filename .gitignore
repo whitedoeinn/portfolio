@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Claude Code project-local settings
+.claude/*
+
+# Exception: Committed plan files for idea shaping
+!.claude/plans/
+.claude/plans/*
+!.claude/plans/idea-*.md
